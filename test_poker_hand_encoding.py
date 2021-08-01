@@ -8,8 +8,7 @@ from combination_encoder import CombinationEncoder
 DECK_SIZE = 52
 HAND_SIZE = 5
 
-if __name__ == '__main__':
-
+def main():
     # create labels for cards for display purposes
     labels = []
     face_values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
@@ -43,4 +42,9 @@ if __name__ == '__main__':
 
         # Display the encoded value for the hand
         print(code)
+
+
+if __name__ == '__main__':
+    main()
+
 
